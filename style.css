@@ -12,49 +12,101 @@ body {
 .container {
     display: flex;
     position: relative;
-    width: 600px;
-    height: 600px;
-
+    width: 800px;
+    height: 650px;
+}
+.row { 
+    width: 100%;
+    height: 100%;
+    background-color: white;
 }
 .foreign_word {
-    margin-top: 5%;
+    margin-top: 6.5%;   
     margin-left: 5%;
     width: 45%;
-    border: 1px solid black;
-    height: 50%;
+    height: 65%;
     border-right: none;
+    padding: 0;
 }
 .translated_word {
-    margin-top: 5%;
+    margin-top: 6.5%;
     margin-right: 5%;
     width: 45%;
-    border: 1px solid black;
-    height: 50%;
+    height: 65%;
+    padding: 0;
+    border-left: none;
 }
 .foreign_options {
     margin-left: 5%;
     width: 45%;
     border: 1px solid black;
-    height: 10%;
+    height: 8%;
     border-right: none;
     position: relative;
-    bottom: 7.6%;
     border-top: none;
+    bottom: 3.8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .translated_options {
     margin-right: 5%;
     width: 45%;
     border: 1px solid black;
-    height: 10%;
-    border-left: none;
+    height: 8%;
     position: relative;
-    bottom: 7.6%;
     border-top: none;
+    bottom: 3.8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .translate_btn {
     margin-left: 5%;
     width: 90%;
-    border: 1px solid black;
-    height: 10%;
+    height: 8%;
     position: relative;
+    bottom: 3.8%;
+    padding: 0;
+}
+.t_btn {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.icons1 {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.4;
+    /* border: 1px solid black; */
+}
+.fas {
+    cursor: pointer;
+}
+.single1{
+    text-align: center;
+    opacity: 0.4;
+    width: 5%;
+    /* border: 1px solid black; */
+}
+.select_from {
+    width: 40%;
+    border: none;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.foreign_input {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 5%;
+}
+.translated_input {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 5%;
 }
